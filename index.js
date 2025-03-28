@@ -7,8 +7,8 @@ dotenv.config();
 const URL = process.env.DB;
 app.use(
   cors({
-    origin: "http://localhost:5173",
-    // origin: "https://food-crud.vercel.app",
+    // origin: "http://localhost:5173",
+    origin: "https://food-crud.vercel.app",
   })
 );
 app.use(express.json());
